@@ -1,0 +1,51 @@
+
+
+<mat-card class="calculator-card">
+    <h2>Калкулатор за ресто</h2>
+  
+    <div class="field-group">
+      <mat-form-field appearance="outline">
+        <mat-label>Дължима сума (BGN)</mat-label>
+        <input matInput type="number" [formControl]="dueBGN">
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Дължима сума (EUR)</mat-label>
+        <input matInput type="number" [formControl]="dueEUR">
+      </mat-form-field>
+    </div>
+  
+    <div class="field-group">
+      <mat-form-field appearance="outline">
+        <mat-label>Платена сума (BGN)</mat-label>
+        <input matInput type="number" [formControl]="paidBGN">
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Платена сума (EUR)</mat-label>
+        <input matInput type="number" [formControl]="paidEUR">
+      </mat-form-field>
+    </div>
+  
+    <div class="field-group">
+      <mat-form-field appearance="outline">
+        <mat-label>Ресто (BGN)</mat-label>
+        <input matInput type="number" [value]="changeBGN" readonly>
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Ресто (EUR)</mat-label>
+        <input matInput type="number" [value]="changeEUR" readonly>
+      </mat-form-field>
+    </div>
+
+    <div class="button-group" style="text-align: center; margin-top: 16px;">
+      <button mat-raised-button color="warn" (click)="clear()">
+        Clear
+      </button>
+    </div>
+    
+
+
+  </mat-card>
+  

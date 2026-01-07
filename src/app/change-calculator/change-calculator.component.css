@@ -1,0 +1,23 @@
+
+
+.calculator-card {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: rgb(44, 41, 41);
+  }
+  .calculator-card mat-label {
+    font-size: 1.1rem;
+  }
+  
+  .calculator-card h2 {
+    color: white;
+    text-align: center;
+  }
+  
+  .field-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
