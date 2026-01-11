@@ -6,9 +6,13 @@
     padding: 1.5rem;
     background-color: rgb(44, 41, 41);
   }
-  .calculator-card mat-label {
+
+@media (min-width: 650px{
+   .calculator-card mat-label {
     font-size: 1.1rem;
   }
+}
+ 
   
   .calculator-card h2 {
     color: white;
