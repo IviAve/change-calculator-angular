@@ -7,6 +7,11 @@
     background-color: rgb(44, 41, 41);
   }
 
+  @media (max-width: 649px){
+    .calculator-card mat-label {
+      font-size: 0.5rem;
+  }
+}
 @media (min-width: 650px){
    .calculator-card mat-label {
     font-size: 1.1rem;
